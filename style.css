@@ -1,0 +1,73 @@
+* {
+  margin: 10px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+    display: flex;
+
+}
+.bir {
+  background: #eeaeca;
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  width: 250px;
+  padding: 20px;
+  border-radius: 30px;
+}
+
+.ikki img {
+  width: 100px;
+  transition: 0.05s;
+  object-fit: cover;
+  border-radius: 50%;
+  display: blockd
+  border: 3px solid #0095f6;
+  height: 150px;
+  width: 150px;
+}
+
+h4 {
+  color: white;
+}
+
+.uch {
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  display: flex;
+  border: none;
+  transition: 0.3s;
+}
+
+button {
+  color: darkturquoise;
+  border-color: darkturquoise;
+
+  padding: 5px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  background-color: #232936;
+  border-radius: 5px;
+  transition: 0.3s;
+  font-size: 16px;
+  font-weight: bold;
+  display: block;
+  margin: 20px auto;
+}
+
+.icons img {
+  width: 25px;
+}
+
+.icons {
+  display: flex;
+}
